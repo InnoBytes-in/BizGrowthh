@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Bizgrowthh</string>
+    <string name="faq1">* What is “Feasibility” and “Viability” of a business?
+
+“Feasibility” is examining the possibility of manufacturing the product or delivering the service.
+“Viability” is examining the sustainability of the proposed business activity in the coming years.</string>
+    <string name="faq2">* How long does it take Bizgrowth to create a Business Plan?
+
+It takes approximately 4 working days once all documents along with the required information is received.</string>
+    <string name="faq3">*  Why should I create a Business Plan and Project Report?
+
+Writing a business plan is an opportunity to carefully think through every step of starting your business and helps in a number of ways including:
+* Validating your assumptions and determining the need for your product or service in the market.
+* Giving a structure to your idea and saving time and resources in the long run.
+* Making projections that give you a good understanding of how your business will operate in the future.</string>
+    <string name="faq4">* When can a Business Plan be prepared?
+
+Business Plan can be prepared when you are planning to start a business, so as to understand the ‘Viability’ and ‘Feasibility’ of the proposed business idea. Also, for existing businesses when the entrepreneur is planning to expand the business or while introducing a new line of service or product or while opening a new branch etc.
+</string>
+    <string-array name="Sector">
+        <item>All</item>
+        <item>Food</item>
+        <item>Other than Food</item>
+    </string-array>
+    <string-array name="businessstage">
+        <item>Start</item>
+        <item>Manage</item>
+        <item>Grow</item>
+    </string-array>
+    <string-array name="category">
+        <item>Legal Compliances</item>
+        <item>Business Performance Improvement</item>
+        <item>Professional Services</item>
+        <item>Marketing</item>
+        <item>Consultation</item>
+    </string-array>
 </resources>
