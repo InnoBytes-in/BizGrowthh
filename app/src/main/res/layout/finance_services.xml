@@ -7,6 +7,19 @@
     tools:context=".ServicesFinance">
 
     <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="64dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_26" />
+
+    <ImageView
         android:id="@+id/imageView9"
         android:layout_width="129dp"
         android:layout_height="139dp"

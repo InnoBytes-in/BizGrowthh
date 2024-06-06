@@ -68,6 +68,15 @@ public class Options extends AppCompatActivity {
             }
         });
 
+        ImageView imageView = findViewById(R.id.imageView13);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Options.this, India.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

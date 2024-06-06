@@ -1,7 +1,10 @@
 package com.example.bizgrowthh;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,5 +46,14 @@ public class GlobalCommerce extends AppCompatActivity {
 
         adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner3.setAdapter(adapter3);
+
+        ImageView imageView = findViewById(R.id.imageView13);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(GlobalCommerce.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

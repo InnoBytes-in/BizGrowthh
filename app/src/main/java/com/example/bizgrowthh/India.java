@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -99,6 +100,15 @@ public class India extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(India.this, Faq.class);
+                startActivity(intent);
+            }
+        });
+
+        ImageView imageView = findViewById(R.id.imageView13);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(India.this, MainActivity.class);
                 startActivity(intent);
             }
         });
