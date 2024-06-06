@@ -22,6 +22,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".Filter" />
+        <activity android:name=".Options"/>
+        <activity android:name=".GlobalCommerce"/>
+        <activity android:name=".Faq"/>
+        <activity android:name=".ServiceEngineering"/>
+        <activity android:name=".ServiceHr"/>
+        <activity android:name=".ServicesFinance"/>
+        <activity android:name=".ServicesLegal"/>
+        <activity android:name=".ServicesMarketing"/>
+        <activity android:name=".ServicesOperations"/>
+        <activity android:name=".ServicesSales"/>
+        <activity android:name=".ServicesTechnology"/>
+        <activity android:name=".India"/>
+        <activity android:name=".ForConsultants"/>
+
     </application>
 
 </manifest>

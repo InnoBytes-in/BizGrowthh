@@ -13,28 +13,28 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="#673AB7"
-        app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/img_24" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:background="#F1EAEA"
         android:text="For Indian Company"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="101dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="407dp"
-        android:layout_height="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
         android:layout_marginTop="76dp"
         android:background="#F1EAEA"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,10 +44,11 @@
 
     <Spinner
         android:id="@+id/sectorint"
-        android:layout_width="406dp"
-        android:layout_height="33dp"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
         android:layout_marginTop="44dp"
         android:background="#F1EAEA"
+        android:spinnerMode="dialog"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,8 +56,8 @@
 
     <Spinner
         android:id="@+id/businessstageint"
-        android:layout_width="408dp"
-        android:layout_height="34dp"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
         android:layout_marginTop="44dp"
         android:background="#F1EAEA"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +67,7 @@
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="408dp"
+        android:layout_width="match_parent"
         android:layout_height="39dp"
         android:layout_marginTop="44dp"
         android:background="#F1EAEA"

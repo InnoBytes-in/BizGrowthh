@@ -4,10 +4,10 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class ServicesOperations extends AppCompatActivity {
+public class ForConsultants extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.operations_services);
+        setContentView(R.layout.for_consultants);
     }
 }

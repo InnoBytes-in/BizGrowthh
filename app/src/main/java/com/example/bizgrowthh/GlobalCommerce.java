@@ -15,7 +15,7 @@ public class GlobalCommerce extends AppCompatActivity {
         Spinner spinner = findViewById(R.id.spinner);
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.Sector, android.R.layout.simple_spinner_item);
+                R.array.Countries, android.R.layout.simple_spinner_item);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
