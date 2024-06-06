@@ -68,6 +68,24 @@ public class Options extends AppCompatActivity {
             }
         });
 
+        Button button6 = findViewById(R.id.button26);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Options.this, ServicesLegal.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button7 = findViewById(R.id.button27);
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Options.this, ServiceEngineering.class);
+                startActivity(intent);
+            }
+        });
+
         ImageView imageView = findViewById(R.id.imageView13);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
