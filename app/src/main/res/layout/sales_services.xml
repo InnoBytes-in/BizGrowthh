@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="Identifying potential customers & leads through research, referrals, networking & cold calling. Sales professionals are skilled at finding & qualifying prospects who have a genuine interest in the products or services being offered."
+        android:text="Identifying potential customers and leads through research, referrals, networking and cold calling. Sales professionals are skilled at finding and qualifying prospects who have a genuine interest in the products or services being offered."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
