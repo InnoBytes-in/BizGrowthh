@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1093334374553",
+    "project_id": "bizgrowthh-85c0c",
+    "storage_bucket": "bizgrowthh-85c0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093334374553:android:8cd6fcf2cb31fc28754008",
+        "android_client_info": {
+          "package_name": "com.example.bizgrowthh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093334374553-2j4kvq5qa140632866vlgqfb1ilt425s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bizgrowthh",
+            "certificate_hash": "f4393493a1e50c32d51b3150f057b1af037f9c66"
+          }
+        },
+        {
+          "client_id": "1093334374553-5vpqmf2a9atr3lgjj0aspbgcchk189l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ5tjdRyQUAmJmP9obkfiq9PpZa3XjawQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093334374553-5vpqmf2a9atr3lgjj0aspbgcchk189l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

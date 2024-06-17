@@ -46,4 +46,57 @@ Business Plan can be prepared when you are planning to start a business, so as t
         <item>Israel</item>
         <item>Qatar</item>
     </string-array>
+    <string-array name="qualification">
+        <item>Highest Qualification</item>
+        <item>Bachelors Degree</item>
+        <item>Diploma</item>
+        <item>Masters Degree</item>
+        <item>Doctoral</item>
+        <item>Certificate</item>
+    </string-array>
+    <string-array name="consultancy">
+        <item>Sector Of Consultancy</item>
+        <item>Marketing</item>
+        <item>Sales</item>
+        <item>Human Resource</item>
+        <item>Operation</item>
+        <item>Finance</item>
+        <item>Technology</item>
+        <item>Legal</item>
+        <item>Engineering</item>
+    </string-array>
+    <string-array name="sub">
+        <item>Select Sub-Category</item>
+        <item>Digital Marketing</item>
+        <item>SEO</item>
+        <item>Email Marketing</item>
+        <item>Growth Marketing</item>
+        <item>Content Marketing</item>
+        <item>Social Media Marketing</item>
+        <item>CRO</item>
+        <item>Product Marketing</item>
+        <item>Brand Marketing</item>
+        <item>Event Marketing</item>
+        <item>Marketing Analysis</item>
+    </string-array>
+    <string name="continue_with_phone">Continue with Phone</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_facebook">Continue with Facebook</string>
+    <string name="Or">OR</string>
+    <string name="Login_with_Email">Login with Email</string>
+    <string name="bizgrowthh_Term">If you continue, you are accepting Bizgrowthh Terms and Conditions and Privacy Policy</string>
+    <string name="default_web_client_id">1093334374553-5vpqmf2a9atr3lgjj0aspbgcchk189l6.apps.googleusercontent.com</string>
+    <string name="next">Next</string>
+    <string name="country_code">+91</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="description">We will send confirmation code to your phone.</string>
+    <string name="country">Country</string>
+    <string name="login">Login</string>
+    <string name="title">Enter your phone</string>
+    <string name="resend">RESEND CODE BY CALL</string>
+    <string name="phone_message">We sent a 4-digit code to</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="whats_youe_name">Whats your name?</string>
+    <string name="StrangerFeel">Stranger feel so impersonal, you know?</string>
+    <string name="email">Email</string>
 </resources>

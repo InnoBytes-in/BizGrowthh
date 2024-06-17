@@ -1,5 +1,9 @@
 [versions]
 agp = "8.3.1"
+cardview = "1.0.0"
+compiler = "4.16.0"
+gson = "2.11.0"
+javaxAnnotationApi = "1.3.2"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
@@ -7,8 +11,25 @@ appcompat = "1.6.1"
 material = "1.11.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+firebaseAnalytics = "22.0.1"
+firebaseDatabase = "21.0.0"
+navigationUiKtx = "2.7.7"
+playServicesAds = "23.1.0"
+playServicesBase = "18.5.0"
+playServicesBasement = "18.4.0"
+toasty = "1.5.2"
+xtoast = "1.0.8"
 
 [libraries]
+androidx-navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationUiKtx" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationUiKtx" }
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "compiler" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+javax-annotation-api = { module = "javax.annotation:javax.annotation-api", version.ref = "javaxAnnotationApi" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -16,7 +37,16 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version = "1.7.0
 material = { group = "com.google.android.material", name = "material", version = "1.12.0" }
 activity = { group = "androidx.activity", name = "activity", version = "1.9.0" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics", version.ref = "firebaseAnalytics" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServicesAds" }
+play-services-base = { module = "com.google.android.gms:play-services-base", version.ref = "playServicesBase" }
+play-services-basement = { module = "com.google.android.gms:play-services-basement", version.ref = "playServicesBasement" }
+toasty = { group = "com.github.GrenderG", name = "Toasty", version.ref = "toasty" }
+xtoast = { module = "com.hjq:xtoast", version.ref = "xtoast" }
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+googleGmsGoogleServices = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 

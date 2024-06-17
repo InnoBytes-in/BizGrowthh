@@ -46,7 +46,7 @@
         android:layout_height="28dp"
         android:layout_marginBottom="32dp"
         android:background="#F3F1F1"
-        android:spinnerMode="dropdown"
+        android:spinnerMode="dialog"
         app:layout_constraintBottom_toTopOf="@+id/businessstage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -57,6 +57,7 @@
         android:layout_height="28dp"
         android:layout_marginBottom="32dp"
         android:background="#F3F1F1"
+        android:spinnerMode="dialog"
         app:layout_constraintBottom_toTopOf="@+id/category"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -67,6 +68,7 @@
         android:layout_height="28dp"
         android:layout_marginBottom="32dp"
         android:background="#F3F1F1"
+        android:spinnerMode="dialog"
         app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
